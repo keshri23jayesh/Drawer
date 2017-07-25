@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_m1"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+</group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+            <item
+                android:id="@+id/nav_Aboutme"
+                android:icon="@drawable/about"
+                android:title="Aboutme" />
+            <item
+                android:id="@+id/nav_fb"
+                android:icon="@drawable/like"
+                android:title="Like me on facebook" />
+            <item
+                android:id="@+id/nav_twit"
+                android:icon="@drawable/twit"
+                android:title="Follow me on Twitter" />
+            <item
+                android:id="@+id/nav_insta"
+                android:icon="@drawable/ins"
+                android:title="Follow me on instagram" />
+
+
+        </menu>
+    </item>
+
+</menu>
